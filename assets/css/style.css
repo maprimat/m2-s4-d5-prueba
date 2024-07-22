@@ -1,0 +1,56 @@
+/* VARIABLES */
+
+:root{
+    --black: #000000;
+    --dark: #212529;
+    --info: #0dcaf0;
+    --light: #f8f9fa;
+    --white: #FFFFFF;
+}
+
+/* GENERAL */
+
+*{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+
+.gradient-custom{
+    background: linear-gradient(180deg, rgba(0,0,0,.6) 0%, rgba(255,255,255,0) 100%);
+}
+
+/* HEADER */
+
+.carousel-item::after{
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.2);
+}
+
+/* ABOUT */
+
+/* FEATURED */
+
+.card{
+    border: 0;
+}
+
+/* CONTACT */
+
+/* FOOTER */
+
+footer{
+
+}
+
+/* MEDIA QUERY */
